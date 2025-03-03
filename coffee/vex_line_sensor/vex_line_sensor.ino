@@ -1,5 +1,3 @@
-#include <Arduino.h>
-
 int trackerPin = A0;
 int lineVal  = 0;
 
@@ -9,7 +7,6 @@ void setup() {
 }
 
 void loop() {
-  
   lineVal = analogRead(trackerPin);
 
   Serial.print("Line Tracker Value: ");

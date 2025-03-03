@@ -1,3 +1,5 @@
+
+//#include <Arduino.h> 
 volatile int encoderCount = 0;
 int lastStateA = LOW;
 int lastStateB = LOW;
@@ -16,7 +18,7 @@ void setup() {
 }
 
 void loop() {
-  Serial.print("Encoder Count: ");
+  Serial.print("Encoder Count:");
   Serial.println(encoderCount);
   delay(100);
 

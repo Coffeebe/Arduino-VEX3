@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 volatile int encoderCount = 0;
 int lastStateA = LOW;
 int lastStateB = LOW;
