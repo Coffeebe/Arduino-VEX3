@@ -1,3 +1,5 @@
+#include "Arduino.h"
+
 int trackerPin = A0;
 int lineVal  = 0;
 
