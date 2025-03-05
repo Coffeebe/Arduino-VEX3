@@ -1,10 +1,9 @@
-
-//#include <Arduino.h> 
+#include <Arduino.h> 
 volatile int encoderCount = 0;
 int lastStateA = LOW;
 int lastStateB = LOW;
-const int encoderPinA = 3;
-const int encoderPinB = 5;
+const int encoderPinA = 1;
+const int encoderPinB = 2;
 
 void setup() {
   Serial.begin(9600);
