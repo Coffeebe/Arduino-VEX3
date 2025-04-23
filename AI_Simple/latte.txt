@@ -1,0 +1,7 @@
+0-80 no movement
+90-170 movement
+180  weird beeping noise and  slow movement 
+190 no movement
+200 movement
+210-254 fast movement
+255 no movement
