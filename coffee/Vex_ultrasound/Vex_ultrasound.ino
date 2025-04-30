@@ -1,6 +1,6 @@
 #include <Arduino.h>
-const int trigPin = 9;
-const int echoPin = 10;
+const int trigPin = 7;
+const int echoPin = 6;
 const int led = 8;
 
 void setup() {
