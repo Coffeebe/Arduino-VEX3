@@ -1,5 +1,5 @@
 const int motorPin = 10;
-int trackerPin = A0;
+int trackerPin = A5;
 int lineVal = 0;
 void setup() {
   Serial.begin(9600);
