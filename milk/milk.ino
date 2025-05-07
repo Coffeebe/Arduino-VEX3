@@ -11,8 +11,8 @@ void setup() {
   pinMode(motorPin, OUTPUT);
   pinMode(motorPin2,OUTPUT);
 
-digitalWrite(pin_thing,HIGH);
-digitalWrite(pin_thing2,HIGH);
+DigitalWrite(pin_thing,HIGH);
+analogWrite(pin_thing2,HIGH);
 }
 
 void loop() {
