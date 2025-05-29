@@ -12,7 +12,7 @@ int trackerPin2 = A4;
 int lineVal = 0;
 void setup() {
   Serial.begin(9600);
-  pinMode(pin_thing,OUTPUT);
+  pinMode(pin_thing,OUTPUT);  
   pinMode(pin_thing2,OUTPUT);
   pinMode(pin_thing3,OUTPUT);
   pinMode(pin_thing4,OUTPUT);

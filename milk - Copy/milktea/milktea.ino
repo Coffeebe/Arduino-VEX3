@@ -11,7 +11,7 @@ int trackerPin = A5;
 int trackerPin2 = A4;
 int lineVal = 0;
 int lineVal2 = 0;
-void setup() {
+void setup() { 
   Serial.begin(9600);
   pinMode(pin_thing,OUTPUT);
   pinMode(pin_thing2,OUTPUT);
@@ -42,9 +42,9 @@ analogWrite(motorPin3,0);
 analogWrite(motorPin4,0);
   } else if (lineVal2 > 800 && lineVal < 800) {
   Serial.println(" off");
-    analogWrite(motorPin,0);
+      analogWrite(motorPin,0);
     analogWrite(motorPin2,0);
-    analogWrite(motorPin3,230);
+    analogWrite(motorPin3,230); 
     analogWrite(motorPin4,230);
   } else if (lineVal > 800 && lineVal2 > 800){
     analogWrite(motorPin,230);
